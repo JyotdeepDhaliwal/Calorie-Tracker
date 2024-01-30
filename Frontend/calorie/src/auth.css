@@ -1,0 +1,41 @@
+/*auth.css*/
+
+/* Making it stay in the center and also changing the background colour by making it gradient*/
+.auth-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 800px; 
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  padding-left: 400px; 
+  padding-right: 400px; 
+}
+
+/*Adding a shadow to the form and fixing up the format*/
+.auth-form {
+  background: #fff;
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,2); 
+  width: 100%; 
+  max-width: 400px; 
+}
+
+/*Fixing the spacing*/
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+/*Changing margin*/
+.auth-form .form-group {
+  margin-bottom: 15px;
+}
+
+/*Fixing the spacing and the colouring for the button*/
+.auth-form .btn-primary {
+  width: 100%; 
+  padding: 10px;
+  background-color: #007bff; 
+  border-radius: 4px; 
+}

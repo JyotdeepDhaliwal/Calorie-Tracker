@@ -1,0 +1,46 @@
+/* Information.css */
+
+/* Styling for the background colour*/
+.main {
+  background-color: #bb7474;
+}
+
+/* Styling title by changing the spacing, text, and the colour */
+.mytitle {
+  padding-left: 420px;
+  color: rgb(11, 57, 114);
+  font-size: 40px;
+  padding-bottom: 50px;
+  font-weight: bolder;
+}
+
+/* Styling the video by adding space */
+.youtubevideo {
+  padding-bottom: 30px;
+}
+
+/* Styling the additional resources by adding spaces above it */
+.additional-resources {
+  padding-top: 60px;
+}
+
+/* Styling by adding the hover effect for the cards, so it moves up a bit when you go over it */
+.additional-resources .resource-card:hover {
+  transform: translateY(-15px);
+}
+
+/* Styling the button in cards by changing the colour */
+.resource-card .btn-primary {
+  background-color: #f76c6c;
+}
+
+/* Styling the headers for the accordion dropdown by fixing the text size and removing the line */
+.p-accordion .p-accordion-header a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Styling for the list items by adding space between them */
+li {
+  margin-bottom: 10px;
+}

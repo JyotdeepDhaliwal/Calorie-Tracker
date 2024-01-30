@@ -1,0 +1,17 @@
+/* App.css */
+
+/* Styling it by adding space at the top of each container */
+.container {
+  padding-top: 10px; 
+}
+
+/* Styling the navbar by changing the background colour and text colour*/
+.navbar {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Styling the navbar links by changing the colour to white when hovering over it */
+.nav-link:hover {
+  color: white;
+}
